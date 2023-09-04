@@ -8,3 +8,4 @@ The code is similar to the previous code, but it includes additional functionali
 state 1: The LEDs follow a sequence (red on, red off, green on, green off) controlled by led_state. If the button is pressed, it transitions to state 2.
 state 2: The LEDs alternate between red and green. If the button is pressed again, it transitions back to state 1.
 ## basic3.c
+This code incorporates additional functionality to handle a button press and debounce the button. It uses Timer A1 to debounce the button press before transitioning between states.
